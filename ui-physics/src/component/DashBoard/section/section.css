@@ -1,0 +1,11 @@
+.main-container{
+    margin:0;
+}
+.dashboard-sub-container{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+
+
+}
+
+

@@ -1,0 +1,16 @@
+.activityBox{
+    min-width:400px;
+   border:2px solid white;
+   border-radius: 10px;
+   
+    height: 200px;
+    margin:20px 0;
+    padding:10px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+.heading{
+    border-bottom: 2px solid white;
+    padding-bottom:5px;
+    text-align: center;
+}

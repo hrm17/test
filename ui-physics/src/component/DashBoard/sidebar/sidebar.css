@@ -1,0 +1,19 @@
+.side-bar{
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 100%;
+}
+.list{
+    margin-left: 15px;
+}
+.list ul{
+    list-style: none;
+   
+}
+.list li{
+    margin:20px 0
+}
+.list li a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}

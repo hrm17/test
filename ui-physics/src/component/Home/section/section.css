@@ -1,0 +1,22 @@
+
+.section-container{
+    width:100%;
+}
+.section-sub-container{
+    width:80%;
+    margin:30px auto;
+
+    padding:20px;
+    color:gray
+}
+.section-paragraph-heading{
+    margin-bottom:10px;
+    color:black
+}
+.section-paragraph p{
+    margin:20px 0;
+}
+.section-paragraph img{
+    width:100%;
+    height:500px;
+}

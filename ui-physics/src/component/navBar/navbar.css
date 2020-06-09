@@ -1,0 +1,68 @@
+.navbar{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+ padding: 0 20px;
+ 
+   
+}
+.brand{
+    
+    text-align: center;
+    color:white;
+
+}
+
+.link ul{
+display: flex;
+flex-direction: row;
+
+
+
+}
+.link ul li ul{
+    display: none;
+}
+
+.link ul li:hover ul{
+ position: absolute;
+    z-index:5;
+    
+    background-color: black;
+}
+.link ul li:hover ul li ul{
+    display: none;
+}
+
+.link ul li:hover ul{
+    display: block;
+}
+
+.link ul li:hover ul li:hover > ul{
+    display: block;
+    color: white;
+    position: absolute;
+    left:-125px;
+
+}
+.link ul li:hover ul li ul li:hover > ul li{
+    display: block;
+    background-color: aliceblue;
+}
+
+.link ul li{
+    list-style: none;
+    margin:15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:10px
+}
+.link ul li a{
+    color:white;
+    text-decoration: none;
+
+}

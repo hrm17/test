@@ -1,0 +1,18 @@
+.inputComponent{
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+.inputComponent label,.inputComponent input{
+    margin:5px 0;
+    color:white;
+    width:100%;
+}
+.inputComponent input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding:5px;
+    
+}
